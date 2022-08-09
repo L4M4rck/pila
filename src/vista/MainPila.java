@@ -28,8 +28,9 @@ public class MainPila {
         System.out.println("Pila \n+"+pilaP.toString());
         
         pilaP.desapilar();
-        System.out.println("Pila \n+"+pilaP.toString());
+        System.out.println("Pila Original \n+"+pilaP.toString());
         
+        Pila<Productos> pd=OperacionesPila.pilaDuplicada(pilaP);
     }
     
 }
